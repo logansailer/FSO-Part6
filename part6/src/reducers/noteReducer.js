@@ -27,7 +27,9 @@ export const createNote = (content) => {
       id: generateId(),
     },
   };
-};export const toggleImportanceOf = (id) => {
+};
+
+export const toggleImportanceOf = (id) => {
   return {
     type: "TOGGLE_IMPORTANCE",
     payload: { id },

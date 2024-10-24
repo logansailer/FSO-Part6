@@ -1,6 +1,6 @@
 import noteReducer from "./noteReducer";
 import deepFreeze from "deep-freeze";
-import {describe, test, expect} from ''
+import { describe, test, expect } from "";
 
 describe("noteReducer", () => {
   test("returns new state with action NEW_NOTE", () => {
